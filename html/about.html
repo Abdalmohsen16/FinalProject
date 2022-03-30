@@ -1,10 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Document</title>
+    <title>ABOUT US</title>
     <link rel="stylesheet" href="../Css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+          
+    <!-- scroll head-->
+
+    <div id="main"></div>
+
+    <!-- Navbar -->
+
+    <div class="navbar-top">
+        <div class="nav-card">
+            <a href="#main">
+                <img src="../media/images/logo.png" class="nav-logo">
+            </a>
+        </div>
+        <div class="nav-tabs">
+            <a href="./index.html"><h2 class="nav-text">Home</h2></a>
+        </div>
+        <div class="nav-tabs">
+        <a href="./plan.html">
+            <h2 class="nav-text" style="margin-left: 25px">PLANS</h2>
+        </a>
+        </div>
+        <div class="nav-tabs" style="margin-left: 30px">
+        <a href="./contact.html">
+            <h2 class="nav-text">Contact</h2>
+        </a>
+        </div>
+        <div class="nav-tabs" style="margin-left: 40px">
+        <a href="./about.html">
+            <h2 class="nav-text">About</h2>
+        </a>
+        </div>
+        <div style="display:flex; flex-direction:row; margin-left: 80px">
+            <h1 class="log-in" id="show-login">LOG IN</h1>
+        </div>
+
+            <div>
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="label">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
+
+            <!-- login popup -->
+
+            <div class="popup" id="login">
+                <div class="close-btn">&times;</div>
+                <div class="form">
+                    <div class="h2-popup-back">
+                    <h2 class="h2-popup">Log in</h2>
+                    </div>
+                    <div class="form-element">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-element">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter passowrd">
+                    </div>
+                    <div class="form-element">
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember me">Remember me</label>
+                    </div>
+                    <div class="form-element">
+                        <button class="btn-popup">Sign in</button>
+                    </div>
+                    <div class="form-element">
+                        <a href="#" class="forgot-link">Forgot password</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Js -->
+    <script src="../Js/about.js"></script>
 </body>
 </html>
