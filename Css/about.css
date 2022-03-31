@@ -26,6 +26,7 @@ html {
     height: 8.5vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: fixed;
     z-index: 10000;
     top:0;
@@ -89,7 +90,6 @@ a {
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
     transition-duration: 0.3s;
-    margin-left: 240px
 }
 
 

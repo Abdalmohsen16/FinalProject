@@ -45,21 +45,32 @@ function popup() {
 
 function rate1() {
     let opinion1 = "😠 الموقع سيء"
-    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px;">${opinion1}</p>`
+    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px; margin-top: 10px">${opinion1}</p>`
 }
 function rate2() {
     let opinion1 = "🙄 لا بأس به"
-    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px;">${opinion1}</p>`
+    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px; margin-top: 10px">${opinion1}</p>`
 }
 function rate3() {
     let opinion1 = "👏 جيد"
-    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px;">${opinion1}</p>`
+    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px; margin-top: 10px">${opinion1}</p>`
 }
 function rate4() {
     let opinion1 = "😎 رائع"
-    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px;">${opinion1}</p>`
+    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px; margin-top: 10px">${opinion1}</p>`
 }
 function rate5() {
     let opinion1 = "😍 ممتاز"
-    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px;">${opinion1}</p>`
+    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px; margin-top: 10px">${opinion1}</p>`
+}
+
+// scrollpath
+
+let progress = document.getElementById('progressbar');
+let totalHeight = document.body.scrollHeight - 
+window.innerHeight;
+window.onscroll = function(){
+    let progressHeight = (window.pageYOffset /
+    totalHeight) * 100;
+    progress.style.height = progressHeight + "%";
 }

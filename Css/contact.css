@@ -26,6 +26,7 @@ html {
     height: 8.5vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: fixed;
     z-index: 10000;
     top:0;
@@ -89,7 +90,6 @@ a {
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
     transition-duration: 0.3s;
-    margin-left: 240px
 }
 
 
@@ -276,14 +276,90 @@ span {
     box-sizing: border-box;
 }
 
+.center-div {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-back {
+    background-color: white;
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-back {
+    background-color: transparent;
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-div {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-style-up {
+    color: white;
+    font-size: 24px;
+    font-family: 'Markazi Text', serif;
+}
+
+.text-style-main {
+    color: white;
+    font-size: 136px;
+    font-family: 'Markazi Text', serif;
+}
 
 
+.text-style-bottom {
+    color: white;
+    font-size: 24px;
+    font-family: 'Markazi Text', serif;
+    text-align: center;
+    width: 30em
+}
 
+.login-contact {
+    background-color: green;
+    height: 20vw;
+    width: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.email-div {
+    margin-bottom: 30px
+}
 
+.pass-div {
+    margin-bottom: 8em
+}
 
+.email{
+    width: 40em;
+    padding: 10px;
+    outline: none;
+}
 
-
+.password {
+    width: 40em;
+    height: 3em
+}
 
 
 /* switch mode css */
