@@ -46,7 +46,7 @@ html {
    right: 0;
    width: 10px;
    background: linear-gradient(to top, #008aff,#00ffe7);
-   z-index: 1000;
+   z-index: 10001;
    animation: animatescroll 5s linear infinite;
 }
 
@@ -90,7 +90,7 @@ html {
 
 .navbar-top {
     background: linear-gradient(135deg,rgb(195, 0, 255),rgb(0, 102, 255));
-    width: 100%;
+    width: 99.5%;
     height: 8.5vh;
     display: flex;
     align-items: center;
