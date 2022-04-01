@@ -316,6 +316,7 @@ span {
     color: white;
     font-size: 24px;
     font-family: 'Markazi Text', serif;
+
 }
 
 .text-style-main {
@@ -387,6 +388,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5vh;
 }
 
 .sign-btn {
@@ -480,20 +482,6 @@ span {
     width: 10vw;
 }
 
-.image-call {
-    width: 80px;
-}
-
-.call-img {
-    background-color: transparent;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: -20px;
-    margin-top: 20px
-}
 
 /* switch mode css */
 
