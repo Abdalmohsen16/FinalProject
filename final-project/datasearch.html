@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!-- title -->
+    <title>Career Fields | Find your goal</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="../media/images/icon.png" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- CSS-->
+    <link href="./css/datasearch.css" rel="stylesheet" />
+    <!-- font-awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <!-- Navigation bar -->
+
+<div class="top-bar">
+            <div class="logo-div bg-dark"><img src="../media/images/logo.png" class="logo-img"></div>
+            <div class="search">
+                <button type="button" class="bi bi-search search-button"></button>
+                <input type="text" placeholder="ابحث هنا" class="search-input">
+            </div>
+            <div style="display:flex; flex-direction:row; margin-left: 80px; justify-content:center;">
+                <h1 class="nav-started" id="show-login">GET STARTED</h1>
+            </div>
+            <div>
+                <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                <div class="ball"></div>
+        </label>
+    </div>
+</div>
+    
+<div class="navbar-mine">
+        <div class="nav-button">
+            <a href="../final-project/index.html" class="dec-none"><h3 class="home-text">Home</h3></a>
+        </div>
+        <div class="nav-button">
+            <a href="../final-project/contact.html" class="dec-none"><h3 class="contact-text">Contact</h3></a>
+        </div>
+        <div class="nav-button">
+            <h3 class="signup-text">SIGN UP</h3>
+        </div>
+</div>
+    
+    <!-- search data -->
+    
+<div class="back-container">
+    <div class="container">
+        <div class="inputlist2">
+            <div class="career-input">
+                <h2 class="input-title">: الدولة المطلوبة</h2>
+                <input type="text" placeholder=". . . اسم الدولة" class="careerinp">
+            </div>
+            <div class="country-input">
+                <h2 class="input-title">: الدولة المقيم بها</h2>
+                <input type="text" placeholder=". . . اسم الدولة" class="countryinp">
+            </div>
+            <div class="submit">
+                <button type="button" class="submit-btn" id="submit">تـأكـيـد</button>
+            </div>
+        </div>
+
+            <div class="inputlist1">
+            <div class="input1">
+                <h2 class="input-title">: الاسم</h2>
+                <input type="text" placeholder=" . . . أدخـل اسـمـك" class="name-input">
+            </div>
+            <div class="input2">
+                <h2 class="input-title">: العمر</h2>
+                <input type="text" placeholder=". . . أدخـل عـمـرك" class="age-input">
+            </div>
+            <div class="experience-drop">
+
+                <!-- <select>
+                    <option disabled hidden selected>. . اختر</option>
+                    <option value="الطب" onclick="aaa()">الـطـب</option>
+                    <option value="الهندسة">الـهـندسـة</option>
+                    <option value="التعليم">الـتـعـلـيـم</option>
+                    <option value="التجارة">الـتـجـارة</option>
+                    <option value="البرمجة">البـرمجـة</option>
+                </select> -->
+
+
+
+                <details class="custom-select">
+                    <summary class="radios">
+                        <input type="radio" name="item" id="default" title="اختر تخصصك" checked>
+                        <input type="radio" name="item" id="item1" title="الطب">
+                        <input type="radio" name="item" id="item2" title="الهندسة">
+                        <input type="radio" name="item" id="item3" title="التجارة">
+                        <input type="radio" name="item" id="item4" title="التعليم">
+                        <input type="radio" name="item" id="item5" title="البرمجة">
+                    </summary>
+                    <ul class="list">
+                        <li>
+                            <label for="item1" onclick="Medicine()">الطب</label>
+                        </li>
+                        <li>
+                            <label for="item2">الهندسة</label>
+                        </li>
+                        <li>
+                            <label for="item3">التجارة</label>
+                        </li>
+                        <li>
+                            <label for="item4">التعليم</label>
+                        </li>
+                        <li>
+                            <label for="item5">البرمجة</label>
+                        </li>
+                    </ul>
+                </details>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
