@@ -5,6 +5,8 @@
 //     link.innerHTML = `` ;
 // })
 
+// box select sites
+
 let link1 = "تـأكـيـد"
 
 function Medicine() {
@@ -41,4 +43,27 @@ function programming() {
     style="color: white">
     ${link1}
     </a>`
+}
+
+// rate text
+
+function rate1() {
+    let opinion1 = "😠 الموقع سيء"
+    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px; margin-top: 10px">${opinion1}</p>`
+}
+function rate2() {
+    let opinion1 = "🙄 لا بأس به"
+    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px; margin-top: 10px">${opinion1}</p>`
+}
+function rate3() {
+    let opinion1 = "👏 جيد"
+    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px; margin-top: 10px">${opinion1}</p>`
+}
+function rate4() {
+    let opinion1 = "😎 رائع"
+    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px; margin-top: 10px">${opinion1}</p>`
+}
+function rate5() {
+    let opinion1 = "😍 ممتاز"
+    document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px; margin-top: 10px">${opinion1}</p>`
 }
