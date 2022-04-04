@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     font-family: Montserrat,sans-serif;
+    font-family: 'Almarai', sans-serif;
 }
 
 body {
@@ -64,6 +65,8 @@ html {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     padding-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
   
   

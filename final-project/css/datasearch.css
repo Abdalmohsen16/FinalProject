@@ -68,6 +68,8 @@ a {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     padding-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
   
   
@@ -209,7 +211,7 @@ a {
   }
   
   .ar-right {
-    text-align: right
+    text-align: right;
   }
 
 .popup {
