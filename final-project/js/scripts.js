@@ -68,23 +68,31 @@ function rate5() {
     document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px; margin-top: 10px">${opinion1}</p>`
 }
 
-// sticky bar
-
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar-mine");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
 
 // log in
 
 function removesign() {
-    document.getElementById("remove").remove()
+    let email = document.getElementById("remove").value;
+    localStorage.setItem("email", email);
+
+    document.getElementById("remove").value= '';
+};
+
+// log in - contact page
+
+function contactsign() {
+    let Email = document.getElementById("email1").value;
+    let Password = document.getElementById("password1").value;
+    localStorage.setItem("Email",Email);
+    localStorage.setItem("Password",Password);
+
+    document.getElementById("email1").value= '';
+    document.getElementById("password1").value= '';
+}
+
+function dataremove() {
+    document.getElementById("name").value= '';
+    document.getElementById("age").value= '';
+    document.getElementById("ordered-country").value= '';
+    document.getElementById("currently-country").value= '';
 }

@@ -23,12 +23,6 @@
   font-family: 'Almarai', sans-serif;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10000;
-}
 
 figure {
   overflow: hidden;

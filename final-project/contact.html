@@ -28,7 +28,9 @@
             <input type="text" placeholder="ابحث هنا" class="search-input">
         </div>
         <div style="display:flex; flex-direction:row; margin-left: 60px; justify-content:center;">
+            <a href="./datasearch.html">
             <h1 class="nav-started" id="show-login">GET STARTED</h1>
+            </a>
         </div>
         <div>
             <input type="checkbox" class="checkbox" id="checkbox">
@@ -107,16 +109,16 @@
                 </div>
                 <h3 class="email-text">E-mail</h3>
                 <div class="email-div">
-                    <input type="text" placeholder="Enter Your Email" class="email">
+                    <input type="text" placeholder="Enter Your Email" class="email" id="email1">
                 </div>
                 <h3 class="password-text">Password</h3>
                 <div class="pass-div">
-                    <input type="text" placeholder="Enter Your Password" class="password">
+                    <input type="text" placeholder="Enter Your Password" class="password" id="password1">
                 </div>
                 <div class="login-button">
-                    <button class="sign-btn">SIGN UP</button>
+                    <button class="sign-btn" onclick="contactsign()">SIGN UP</button>
                 </div>
-            </div>
+            </div> 
             <div class="mail-send">
                 <div class="mail-div">
                     <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
@@ -140,7 +142,7 @@
     
     <!-- Js -->
     
-    <script src="../Js/contant.js"></script>
+    <script src="./js/scripts.js"></script>
 
 </body>
 </html>
