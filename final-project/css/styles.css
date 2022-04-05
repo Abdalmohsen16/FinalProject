@@ -23,6 +23,27 @@
   font-family: 'Almarai', sans-serif;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+figure {
+  overflow: hidden;
+  margin: 0 10px
+}
+
+.aa #zoom-in img {
+  transform: scale(1);
+  transition-duration: 0.3s;
+}
+
+.aa #zoom-in .zoom:hover {
+  transform: scale(1.2)
+}
+
 .top-bar {
   background-color: rgb(36, 33, 33);
   width: 100%;

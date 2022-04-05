@@ -509,7 +509,7 @@ a {
     height: 25em;
     margin: 0px 50px;
     border-radius: 15px;
-    animation: scrollshow 7s linear infinite;
+    animation: scrollshow 10s linear infinite;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.507) ;
 }
 

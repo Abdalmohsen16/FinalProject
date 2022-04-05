@@ -67,3 +67,24 @@ function rate5() {
     let opinion1 = "😍 ممتاز"
     document.getElementById("opinion").innerHTML = `<p style="color:white; font-size:20px; margin-top: 10px">${opinion1}</p>`
 }
+
+// sticky bar
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar-mine");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+// log in
+
+function removesign() {
+    document.getElementById("remove").remove()
+}
